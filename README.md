@@ -1,6 +1,17 @@
 ## Towards a human-like movements generator based on environmental features
 
-Example of generated trajecotries using the different methods explained in the paper. In every pictures is visible the road system in red and the trajectory in white.
+Example of generated trajectories using the different methods presented in the paper. In every pictures is visible the road system in red and the trajectory in white. 
+The number after the name shows the model variant. 
+1 means the following equation:
+$$
+\begin{equation}\label{eq:features_g}
+    g(a)=\left\{\begin{matrix}
+    d(a, C_I) & if\:a \in I   \\ 
+    d(a, P_I) & if \:a \in O\: \wedge\:a \notin  I   \\ 
+    -d(a, P_O))  & otherwise
+    \end{matrix}\right.
+\end{equation}
+$$
 
 #### Fitness Based A* normal
 
