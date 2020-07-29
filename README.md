@@ -2,16 +2,7 @@
 
 Example of generated trajectories using the different methods presented in the paper. In every pictures is visible the road system in red and the trajectory in white. 
 The number after the name shows the model variant. 
-1 means the following equation:
-$$
-\begin{equation}\label{eq:features_g}
-    g(a)=\left\{\begin{matrix}
-    d(a, C_I) & if\:a \in I   \\ 
-    d(a, P_I) & if \:a \in O\: \wedge\:a \notin  I   \\ 
-    -d(a, P_O))  & otherwise
-    \end{matrix}\right.
-\end{equation}
-$$
+Eq. 4 is the sum of three different elements. The value 1 means in which position of the three elements Eq. 2 is replaced by Eq. 3
 
 #### Fitness Based A* normal
 
